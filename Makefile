@@ -8,13 +8,13 @@ post-install:
 
 format:
 	#format code
-	black *.py mylib/*.py
+	black *.py library/*.py
 lint:
 	#check proper syntax via flake8 or pylint
-	pylint --disable=R,C *.py mylib/*.py
+	pylint --disable=R,C *.py library/*.py
 test:
 	#test
-	python -m pytest -vv --cov=mylib --cov=main test_*.py
+	python -m pytest -vv --cov=library --cov=main test_*.py
 build:
 	#build container
 	docker build -t deploy-fastapi .
