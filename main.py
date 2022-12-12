@@ -11,28 +11,28 @@ async def root():
 
 
 @app.get("/apod")
-async def search():
+async def search_apod():
     # Retrieve the Astronomy Picture of the Day
     result = apod()
     return {"result": result}
 
 
 @app.get("/earth-natural-imagery")
-async def search():
+async def search_earth():
     # Retrieve metadata on the most recent date of natural color imagery
     result = earth_natural_imagery()
     return {"result": result}
 
 
 @app.get("/nasa-library/{query}")
-async def search(query: str):
+async def search_nasa(query: str):
     # Perform a search of the Nasa Image and Video library
     result = nasa_library(query)
     return {"result": result}
 
 
 @app.get("/asteroid-info/{start_date}/{end_date}")
-async def search(start_date: str, end_date: str):
+async def search_asteroid(start_date: str, end_date: str):
     # Retrieve a list of Asteroids on thier closest approach date to Earth
     result = asteroid_info(start_date, end_date)
     return {"result": result}
