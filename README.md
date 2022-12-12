@@ -2,7 +2,7 @@
 
 # Python Microservice with CI/CD
 
-### Tools: AWS ECR, AWS Codebuild, AWS ECS/App Runner, Docker, Fast API, Nasa API
+### Tools: Fast API, Nasa API, Docker, and AWS ECR, Codebuild, ECS / App Runner
 
 This is a Python Microservice equipped with CI/CD, that can be scaled and used to create a production-level Dev-Ops workflow and infrastructure.
 
