@@ -44,6 +44,4 @@ if __name__ == "__main__":
 
 
 # TO-DO
-# Add testing and pass build for that
 # Figure out remaining ec2 stuff
-# Remove unnecessary downloads/reqs/installs
