@@ -11,7 +11,7 @@ def test_read_main():
 
 
 def test_read_nasa_library():
-    response = client.get("/nasa-library/blue")
+    response = client.get("/nasa-library/cent")
     assert response.status_code == 200
     assert response.json() == {
         "result": {
