@@ -32,7 +32,3 @@ def asteroid_info(start_date, end_date):
     url = f"https://api.nasa.gov/neo/rest/v1/feed?start_date={start_date}&end_date={end_date}&api_key={API_KEY}"
     response = requests.get(url)
     return response.json()
-
-
-# Upload and run
-# Tests

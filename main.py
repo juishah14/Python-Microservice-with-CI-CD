@@ -41,3 +41,9 @@ async def search_asteroid(start_date: str, end_date: str):
 # basically http://localhost:8080/
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")
+
+
+# TO-DO
+# Add testing and pass build for that
+# Figure out remaining ec2 stuff
+# Remove unnecessary downloads/reqs/installs
