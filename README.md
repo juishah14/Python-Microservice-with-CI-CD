@@ -2,14 +2,16 @@
 
 # Python Microservice with CI/CD
 
-Tools: AWS ECR, AWS Codebuild, AWS ECS/App Runner, Docker, Fast API, Nasa API
-
-<br>
+### Tools: AWS ECR, AWS Codebuild, AWS ECS/App Runner, Docker, Fast API, Nasa API
 
 This is a Python Microservice equipped with CI/CD, that can be scaled and used to create a production-level Dev-Ops workflow and infrastructure.
 
+<br>
+
 Continuous Integration: <br>
 A Github workflow has been set up to aid in facilitating smooth continuous integration. The workflow performs a build which installs dependencies, formats and lints code, runs tests, and containerizes code, as well as sends an email to the repo owner upon any build failures.
+
+<br>
 
 Continuous Deployment: <br>
 In order to set up containerized continuous deployment, this repo can be connected to AWS Codebuild. This will allow for new images to be built upon any pushes to main, and for these images to then be pushed directly to ECR. <br>
@@ -24,6 +26,8 @@ After this, ECR can be connected to either AWS ECS or AWS App Runner, in order t
 To use ECS, create a cluster and then a new service which uses that cluster. The service should be given a task definition so that it knows which Docker image to use from ECR.
 
 To use App Runner, create a service which uses ECR. App Runner can then monitor your container registry and deploy a new version of your service for each image push. It will also give you a domain/url on which your service (in this case an API) is being hosted.
+
+<br>
 
 Local Development: <br>
 Enter virtual environment - `venv/Scripts/Activate.ps1` <br>
