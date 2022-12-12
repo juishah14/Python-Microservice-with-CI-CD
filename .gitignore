@@ -1,3 +1,4 @@
 venv
 library/__pycache__
 .vscode
+.env

@@ -5,5 +5,4 @@
 Requires Docker Desktop.
 
 Enter the Virtual Environment using command `venv/Scripts/Activate.ps1`.
-
-Possible ideas for the future: create some sort of webscraper or something typical and "Python-y" to use as the main code logic.
+To locally run and test, `docker build -t deploy-fastapi .`, `docker images` to see image id, `docker run -p 8080:8080 <image-id>`.
