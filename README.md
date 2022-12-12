@@ -9,7 +9,7 @@ Tools: AWS ECR, AWS Codebuild, AWS ECS/App Runner, Docker, Fast API, Nasa API
 This is a Python Microservice equipped with CI/CD, that can be scaled and used to create a production-level Dev-Ops workflow and infrastructure.
 
 Continuous Integration: <br>
-A Github workflow has been set up to aid in facilitating smooth continuous integration. The workflow installs dependencies, formats and lints code, runs tests, and containerizes code.
+A Github workflow has been set up to aid in facilitating smooth continuous integration. The workflow performs a build which installs dependencies, formats and lints code, runs tests, and containerizes code, as well as sends an email to the repo owner upon any build failures.
 
 Continuous Deployment: <br>
 In order to set up containerized continuous deployment, this repo can be connected to AWS Codebuild. This will allow for new images to be built upon any pushes to main, and for these images to then be pushed directly to ECR. <br>
