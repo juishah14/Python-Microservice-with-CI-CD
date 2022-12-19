@@ -4,6 +4,8 @@
 
 ### Tools: Fast API, Nasa API, Docker, AWS
 
+<br>
+
 This Python Microservice equipped with CI/CD was developed using the NASA API, Fast API, Docker, and AWS services (ECR, Codebuild, ECS/App Runner). Using the defined routes, users can retrieve information on NASA and its various missions and scientific discoveries, as well as perform a search of the NASA Image and Video library.
 
 This Containerized Paas Microservice has been designed such that it can be scaled to create a production-level Dev-Ops workflow and infrastructure, equipped with unit and end-to-end tests, formatting and lint checks, and continuous deployment of your container to AWS.
@@ -39,6 +41,7 @@ To use App Runner, create a service which uses ECR. App Runner can then monitor 
 <br>
 
 #### Local Development: <br>
+Requires Docker Desktop.
 Enter virtual environment - `venv/Scripts/Activate.ps1` <br>
 Build, test, and run locally -
 
