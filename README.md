@@ -41,7 +41,7 @@ To use App Runner, create a service which uses ECR. App Runner can then monitor 
 <br>
 
 #### Local Development: <br>
-Requires Docker Desktop.
+Requires Docker Desktop. <br>
 Enter virtual environment - `venv/Scripts/Activate.ps1` <br>
 Build, test, and run locally -
 
