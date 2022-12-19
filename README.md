@@ -2,7 +2,7 @@
 
 # Python Microservice with CI/CD
 
-### Tools: NASA API, Fast API, Docker, AWS
+### Tools: Fast API, Nasa API, Docker, Aws ECR, Aws Codebuild, Aws App Runner
 
 This Python Microservice equipped with CI/CD was developed using the NASA API, Fast API, Docker, and AWS services (ECR, Codebuild, ECS / App Runner). Using the defined routes, users can retrieve information on NASA and its various missions and scientific discoveries, as well as perform a search of the NASA Image and Video library.
 
