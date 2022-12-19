@@ -6,7 +6,7 @@
 
 This Python Microservice equipped with CI/CD was developed using the NASA API, Fast API, Docker, and AWS services (ECR, Codebuild, ECS/App Runner). Using the defined routes, users can retrieve information on NASA and its various missions and scientific discoveries, as well as perform a search of the NASA Image and Video library.
 
-This Containerized Paas Microservice has been designed such that it can be scaled to create a production-level Dev-Ops workflow, equipped with unit and end-to-end tests, formatting and lint checks, and continuous deployment of your container to AWS. Its infrastructure is also similar to what would be used to build out NLP Microservices on AWS.
+This Containerized Paas Microservice has been designed such that it can be scaled to create a production-level Dev-Ops workflow and infrastructure, equipped with unit and end-to-end tests, formatting and lint checks, and continuous deployment of your container to AWS.
 
 #### Continuous Integration:
 
