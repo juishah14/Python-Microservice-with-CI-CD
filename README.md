@@ -8,7 +8,8 @@ This Python Microservice equipped with CI/CD was developed using the NASA API, F
 
 This Containerized Paas Microservice has been designed such that it can be scaled to create a production-level Dev-Ops workflow, equipped with unit and end-to-end tests, formatting and lint checks, and continuous deployment of your container to AWS. Its infrastructure is also similar to what would be used to build out NLP Microservices on AWS.
 
-<b> Continuous Integration: <b> <br>
+<b> Continuous Integration: </b> 
+<br>
 A Github workflow has been set up to aid in facilitating smooth continuous integration. The workflow performs a build which installs dependencies, formats and lints code, runs tests, and containerizes code, as well as sends an email to the repo owner upon any build failures.
 
 ![My Image](images/all_builds.png)
