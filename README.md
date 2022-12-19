@@ -8,6 +8,8 @@ This Python Microservice equipped with CI/CD was developed using the NASA API, F
 
 This Containerized Paas Microservice has been designed such that it can be scaled to create a production-level Dev-Ops workflow and infrastructure, equipped with unit and end-to-end tests, formatting and lint checks, and continuous deployment of your container to AWS.
 
+<br>
+
 #### Continuous Integration:
 
 A Github workflow has been set up to aid in facilitating smooth continuous integration. The workflow performs a build which installs dependencies, formats and lints code, runs tests, and containerizes code, as well as sends an email to the repo owner upon any build failures.
@@ -20,7 +22,7 @@ A Github workflow has been set up to aid in facilitating smooth continuous integ
 
 <br>
 
-Continuous Deployment: <br>
+#### Continuous Deployment: <br>
 In order to set up containerized continuous deployment, this repo can be connected to AWS Codebuild. This will allow for new images to be built upon any pushes to main, and for these images to then be pushed directly to ECR. <br>
 
 To set this up, create a build project with AWS Codebuild and configure it such that:
@@ -36,7 +38,7 @@ To use App Runner, create a service which uses ECR. App Runner can then monitor 
 
 <br>
 
-Local Development: <br>
+#### Local Development: <br>
 Enter virtual environment - `venv/Scripts/Activate.ps1` <br>
 Build, test, and run locally -
 
